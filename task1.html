@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1 Kid  ImageGame </title>
+</head>
+<body>
+  <h2>Open the Secret</h2>
+  <button onclick="toggleImage()">Show/Hide Image</button>
+  <br>
+  <img id="myImage" src="https://i.pinimg.com/736x/50/14/b5/5014b560b4bca741ed68a02d15985387.jpg" style="display: none;" alt="Sample Image">
+
+  <script>
+    function toggleImage() {
+      const img = document.getElementById('myImage');
+      img.style.display = (img.style.display === 'none') ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
